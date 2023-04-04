@@ -1,0 +1,22 @@
+#abc {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: rgb(52, 165, 42);
+}
+
+#abc:hover {
+    border-radius: 50%;
+    background-color: black;
+    transition: 2s;
+    display: none;
+}
+
+input:focus {
+    background-color: blue;
+}
+
+#abc:hover {
+    width: 120px;
+    height: 120px;
+}
